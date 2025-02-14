@@ -45,7 +45,7 @@ TAVILY_CHATBOT/
 
 ### **🔹 1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-github-username/Tavily_Chatbot.git
+git clone https://github.com/Seiro10/AI-tavily-chatbot.git
 cd Tavily_Chatbot
 ```
 
