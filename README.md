@@ -1,4 +1,3 @@
-```md
 # Tavily Chatbot - AI-Powered Search Assistant  
 
 ## 🔹 Overview  
@@ -17,7 +16,7 @@ It is built using Flask (backend), Tailwind CSS + JavaScript (frontend), and fol
 
 
 ## 📂 Project Structure (MVC Architecture)  
-```
+
 TAVILY_CHATBOT/
 │── app/                     # Main Flask application
 │   ├── controllers/         # Controllers (Handles API requests)
@@ -36,6 +35,7 @@ TAVILY_CHATBOT/
 │── .env                     # (Ignored) API keys (Tavily & OpenAI)
 │── .gitignore               # Exclude sensitive files from Git
 │── README.md                # Project Documentation
+
 ```
 
 ## ⚙️ Local Setup & Installation  
