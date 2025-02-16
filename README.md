@@ -14,30 +14,6 @@ It is built using Flask (backend), Tailwind CSS + JavaScript (frontend), and fol
 ✅ **Flask Backend** – REST API handles user requests and chatbot logic.  
 ✅ **Secure API Keys** – Uses `.env` (local) or Google Secret Manager (GCP) for credentials.  
 
-
-## 📂 Project Structure (MVC Architecture)  
-
-TAVILY_CHATBOT/
-│── app/                     # Main Flask application
-│   ├── controllers/         # Controllers (Handles API requests)
-│   │   ├── chat_controller.py  
-│   ├── models/              # Models (Chatbot logic)
-│   │   ├── chatbot.py        
-│   │   ├── tool_node.py     
-│   ├── templates/           # Views (Frontend templates)
-│   │   ├── base.html     
-│   │   ├── index.html    
-│   ├── static/              # Static files (CSS, JS)
-│   ├── __init__.py          # App initialization
-│── main.py                  # Entry point
-│── requirements.txt         # Dependencies
-│── wsgi.py                  # Production WSGI server
-│── .env                     # (Ignored) API keys (Tavily & OpenAI)
-│── .gitignore               # Exclude sensitive files from Git
-│── README.md                # Project Documentation
-
-```
-
 ## ⚙️ Local Setup & Installation  
 
 ### 🔹 1️⃣ Clone the Repository  
