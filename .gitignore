@@ -1,12 +1,25 @@
+# Ignore environment variables & API keys
+.env
+*.secret
 
+# Ignore compiled Python files
 __pycache__/
 *.pyc
-venv/
-env/
-tavily_chatbot/
-.env
-.DS_Store
-.vscode/
-.idea/
-*.log
+*.pyo
 
+# Ignore virtual environments
+venv/
+.tavily_chatbot/
+
+# Ignore Docker build files
+Dockerfile
+*.tar
+*.log
+*.pid
+*.sock
+
+# Ignore local system files
+*.swp
+.DS_Store
+.idea/
+.vscode/
